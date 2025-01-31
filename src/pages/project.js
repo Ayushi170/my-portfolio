@@ -13,43 +13,43 @@ const projects = [
         title: "PRODUCT BRANDING",
         description: "Sometimes, it's a brand's voice, shaped with purpose.",
         image: branding,
-        link: "/branding"  // Use the path to the relevant project page
+        link: "#/branding"  // Use the path with #/ for correct routing
     },
     {
         title: "UI/UX DESIGN",
         description: "At times, it's crafting seamless journeys that guide with ease.",
         image: uiux,
-        link: "/uiux"
+        link: "#/uiux"
     },
     {
         title: "SOCIAL MEDIA VISUALS",
         description: "Other times, ideas inspiring communication and connections.",
         image: socialmedia,
-        link: "/socialmedia"
+        link: "#/socialmedia"
     },
     {
         title: "FLYER DESIGN",
         description: "It's visuals that captivate at first glance.",
         image: flyer,
-        link: "/flyer"
+        link: "#/flyer"
     },
     {
         title: "MERCHANDISE DESIGN",
         description: "Here, designs transform into meaningful, personal statements.",
         image: merchandise,
-        link: "/merchandise"
+        link: "#/merchandise"
     },
     {
         title: "T-SHIRT DESIGN",
         description: "It's fashion that boldly speaks your identity.",
         image: tshirtdesign,
-        link: "/tshirt"
+        link: "#/tshirt"
     },
     {
         title: "FLEX DESIGN",
         description: "And sometimes, it's a message amplified, loud and clear for all to see.",
         image: flex,
-        link: "/flex"
+        link: "#/flex"
     }
 ];
 
@@ -77,7 +77,7 @@ function Projects() {
                                                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
                                             />
                                         </div>
-                                        <div className="card-text" style={{ flex: 1, padding: "20px", display: "flex", flexDirection: "column", justifyContent: "center", }}>
+                                        <div className="card-text" style={{ flex: 1, padding: "20px", display: "flex", flexDirection: "column", justifyContent: "center" }}>
                                             <Card.Title style={{ fontSize: "clamp(1.5rem, 2vw, 2rem)", marginBottom: "10px" }}>
                                                 {project.title}
                                             </Card.Title>
