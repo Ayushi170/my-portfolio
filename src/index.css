@@ -1,0 +1,45 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Optional: Set a background color */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-size: 1.2rem; /* Optional: Adjust code font size */
+}
+
+/* Keyframe Animations for Slide Effects */
+@keyframes slideLeft {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Additional Styles for Elements with Animations */
+@media (max-width: 768px) {
+  /* Adjustments for mobile view or smaller screens */
+  body {
+    font-size: 1rem; /* Adjust font size for better readability */
+  }
+}
